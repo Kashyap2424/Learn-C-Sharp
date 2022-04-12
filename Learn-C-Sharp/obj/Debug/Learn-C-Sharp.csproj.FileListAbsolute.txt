@@ -1,0 +1,6 @@
+/Users/k.k.h.m/Projects/Learn-C-Sharp/Learn-C-Sharp/bin/Debug/Learn-C-Sharp.exe
+/Users/k.k.h.m/Projects/Learn-C-Sharp/Learn-C-Sharp/bin/Debug/Learn-C-Sharp.pdb
+/Users/k.k.h.m/Projects/Learn-C-Sharp/Learn-C-Sharp/obj/Debug/Learn-C-Sharp.csproj.AssemblyReference.cache
+/Users/k.k.h.m/Projects/Learn-C-Sharp/Learn-C-Sharp/obj/Debug/Learn-C-Sharp.csproj.CoreCompileInputs.cache
+/Users/k.k.h.m/Projects/Learn-C-Sharp/Learn-C-Sharp/obj/Debug/Learn-C-Sharp.exe
+/Users/k.k.h.m/Projects/Learn-C-Sharp/Learn-C-Sharp/obj/Debug/Learn-C-Sharp.pdb
