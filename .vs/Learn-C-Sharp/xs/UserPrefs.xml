@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{02BE9835-087C-4433-87CE-8B4662F16D36}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Learn-C-Sharp/Program.cs">
+    <Files>
+      <File FileName="Learn-C-Sharp/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Learn-C-Sharp" expanded="True">
+            <Node name="Learn-C-Sharp" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Learn-C-Sharp FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
