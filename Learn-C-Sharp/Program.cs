@@ -6,28 +6,59 @@ namespace LearnCSharp
     {
         public static void Main(string[] args)
         {
-            // Read a name and Print in console
-            Console.WriteLine("Hello, pleas enter you first name: ");
-            string firstName = Console.ReadLine(); // Console.ReadLine alwasy return a string.
+            DateTime dt = DateTime.Now;
 
-            Console.WriteLine("Hello, pleas enter you last name: ");
-            string lastName = Console.ReadLine();
+            Console.WriteLine($"Right now Date and Time is: {dt}");
 
-            Console.WriteLine("Your full name is: " + firstName + " " + lastName); // Concatination Syntax
+            Console.WriteLine($"Sort date is: {dt:d}");
 
-            Console.WriteLine("Your full name is: {0} {1}", firstName, lastName); // Placeholder Syntax
+            Console.WriteLine($"Long date is: {dt:D}");
 
-            Console.WriteLine($"Your full name is: {firstName} {lastName}"); // Interpolation Syntax
+            Console.WriteLine($"Sort time is: {dt:f}");
 
+            Console.WriteLine($"Long time is: {dt:F}");
 
-            // Read a number and do addition of two number
-            Console.WriteLine("Enter first number: ");
-            int number1 = int.Parse(Console.ReadLine()); // Console.ReadLine alwasy return a string but now we parse they string into the integer.
+            Console.WriteLine($"This is show general date and time: {dt:g}");
 
-            Console.WriteLine("Enter first number: ");
-            int number2 = int.Parse(Console.ReadLine());
+            Console.WriteLine($"This is show general date and time (with long time): {dt:G}");
 
-            Console.WriteLine("Addition of two number is: " + (number1 + number2));
+            Console.WriteLine($"Showing day of month: {dt:m}");
+
+            Console.WriteLine($"Showing day of month (same as above): {dt:M}");
+
+            Console.WriteLine($"Showing sort time: {dt:t}");
+
+            Console.WriteLine($"Showing long time: {dt:T}");
+
+            Console.WriteLine($"Showing year of month: {dt:y}");
+
+            Console.WriteLine($"Showing year of month (same as above): {dt:Y}");
+
+            Console.WriteLine($"Showing year: {dt:yy}");
+
+            Console.WriteLine($"Showing full year: {dt:yyyy}");
+
+            Console.WriteLine($"Showing full year (with five digits): {dt:yyyyy}");
+
+            Console.WriteLine($"Showing week of the day: {dt:ddd}");
+            
+            Console.WriteLine($"Showing week of the day (with full name of the day): {dt:dddd}");
+
+            Console.WriteLine($"Showing hourse in 24hrs formate: {dt:HH}");
+
+            Console.WriteLine($"Showing minutes: {dt:mm}");
+
+            Console.WriteLine($"Showing secondes: {dt:ss}");
+
+            Console.WriteLine($"Showing seconds (with two digits and showing fractional part of the seconde): {dt:FF}");
+
+            Console.WriteLine($"Showing months in digites (01 to 12): {dt:MM}");
+
+            Console.WriteLine($"Showing month's sort name: {dt:MMM}");
+
+            Console.WriteLine($"Custome time: {dt:hh:mm:ss tt}");
+
+            Console.WriteLine($"Custome date: {dt:dd/MMM/yyyy}");
         }
     }
 }
